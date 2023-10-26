@@ -1,23 +1,28 @@
-# TCP
+# Este projeto consiste na simulação de um servidor que compartilha informações de horário e luminosidade com postes de luz de uma região.
+### Postes verificam a luminosidade e horário do dia para acender ou apagar a luz.
+## Ferramentas Utilizadas
 
-O código foi criado como parte de uma simulação. Ele usa threads para simular postes de iluminação que compartilham informações de horário e luminosidade, permitindo a coordenação da iluminação em uma região.
+- Visual Studio Code
+- Python 3.11.4  
 
-# Pré-requisitos
+## Configuração do Ambiente
+1. Certifique-se de ter o Python instalado.
+2. Instale o Visual Studio Code (ou outra IDE de sua preferência) e configure o projeto.
+3. Abra o projeto no Visual Studio Code.
+4. Configure o server.py com o endereço IPv4 da máquina (digite ipconfig no cmd para saber qual seu IP).
+5. Para cada cliente crie uma máquina virtual ou use máquinas diferentes que estão conectadas na mesma rede.
+6. Configure os clients.py com o IP colocado no server.py.
 
-Python
-
-Visual Studio Code ou IDE de sua preferência
-
-# Execução
-
-Para executar o servidor digite no terminal 
+## Como Utilizar
+1. Na máquina que será o servidor execute o seguinte comando no terminal:
 ```
 python .\server.py
 ```
-Para executar os clients digite no terminal
+2. Nas máquinas que serão os clientes execute o seguinte comando no terminal: 
 ```
 python .\client_{número_do_arquivo}.py
 ```
+
 
 # Importante
 
