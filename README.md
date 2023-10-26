@@ -1,6 +1,6 @@
 # TCP
 
-O código foi criado como parte de uma simulação para a disciplina de Programação Paralela e Distribuída. Ele usa threads para simular postes de iluminação que compartilham informações de horário e luminosidade, permitindo a coordenação da iluminação em uma região.
+O código foi criado como parte de uma simulação. Ele usa threads para simular postes de iluminação que compartilham informações de horário e luminosidade, permitindo a coordenação da iluminação em uma região.
 
 # Pré-requisitos
 
