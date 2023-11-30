@@ -16,7 +16,7 @@ horarioP = 0
 
 while True:
         # Recebe os dados que o servidor envia.
-        data = client_socket.recv(1024).decode()
+        data = client_socket.recv(512).decode()
 
         #Atribui os dados de data para as variáveis
         horario, luminosidade = data.split(',')
